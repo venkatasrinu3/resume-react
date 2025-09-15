@@ -1,0 +1,73 @@
+.work-experience {
+  font-family: "Inter", "Arial", sans-serif;
+//   padding: 24px;
+
+  &__title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #2ab4a0; // teal
+    border-bottom: 2px solid #2ab4a0;
+    display: inline-block;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+  }
+
+  &__item {
+    margin-bottom: 24px;
+  }
+
+  &__role {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    margin: 0;
+  }
+
+  &__company {
+    font-size: 14px;
+    color: #000;
+    margin: 2px 0;
+  }
+
+  &__meta {
+    font-size: 13px;
+    margin: 2px 0;
+    display: flex;
+    justify-content: space-between;
+
+    .work-experience__date {
+      color: #2ab4a0;
+      font-style: italic;
+    }
+
+    .work-experience__location {
+      color: #2ab4a0;
+      font-style: italic;
+      margin-left: 6px;
+    }
+  }
+
+  &__subtitle {
+    font-size: 13px;
+    font-style: italic;
+    color: #2ab4a0;
+    margin-top: 8px;
+  }
+
+  &__details {
+    margin: 6px 0 0 18px;
+    padding: 0;
+    list-style-type: disc;
+
+    li {
+      font-size: 14px;
+      line-height: 1.6;
+      color: #333;
+      margin-bottom: 4px;
+
+      &::marker {
+        color: #2ab4a0; // teal bullet
+      }
+    }
+  }
+}

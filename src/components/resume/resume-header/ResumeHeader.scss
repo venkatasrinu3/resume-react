@@ -1,0 +1,62 @@
+.resume-header {
+  font-family: "Inter", "Arial", sans-serif;
+
+  &__top {
+    background-color: #111; // black background
+    color: #fff;
+    padding: 24px;
+    text-align: left;
+  }
+
+  &__name {
+    font-weight: 700;
+    margin: 0 0 4px 0;
+    color: #fff;
+    font-size: 28px;
+  }
+
+  &__title {
+    font-weight: 600;
+    margin: 0 0 16px 0;
+    color: #2ab4a0; // teal (like screenshot)
+    font-size: 18px;
+  }
+
+  &__summary {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #f1f1f1;
+    max-width: 900px;
+  }
+
+  &__bottom {
+    background-color: #333; // dark gray strip
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; // ensures items don't overflow on smaller screens
+    gap: 30px;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #fff;
+  }
+
+  &__contact {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    svg {
+      color: #fff; // icons white
+    }
+  }
+}
+13428700000000000000000000000000000000000000913428709
