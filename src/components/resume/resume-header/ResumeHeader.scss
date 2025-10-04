@@ -23,8 +23,8 @@
   }
 
   &__summary {
-    font-size: 14px;
-    line-height: 1.6;
+    font-size: 12px;
+    // line-height: 1.6;
     color: #f1f1f1;
     max-width: 900px;
   }
@@ -34,10 +34,11 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap; // ensures items don't overflow on smaller screens
-    gap: 30px;
+    gap: 20px;
     padding: 10px 20px;
     font-size: 14px;
     color: #fff;
+    
   }
 
   &__contact {
@@ -59,4 +60,3 @@
     }
   }
 }
-13428700000000000000000000000000000000000000913428709

@@ -35,7 +35,7 @@ const ResumeHeader = () => {
         <Box className="resume-header__contact">
           <EmailIcon fontSize="small" />
           <Link href="mailto:chathan2569@gmail.com" underline="hover" color="inherit">
-            chathan2569@gmail.com
+            nistala.venkatachaitanya@gmail.com  
           </Link>
         </Box>
         <Box className="resume-header__contact">
@@ -58,7 +58,7 @@ const ResumeHeader = () => {
             Linkedin
           </Link>
         </Box>
-        <Box className="resume-header__contact">
+        {/* <Box className="resume-header__contact">
           <GitHubIcon fontSize="small" />
           <Link
             href="https://github.com/yourusername"
@@ -69,7 +69,7 @@ const ResumeHeader = () => {
           >
             Github
           </Link>
-        </Box>
+        </Box> */}
       </Box>
     </Box>
   );

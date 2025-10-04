@@ -11,9 +11,9 @@ const ChathanResume = () => {
         <>
             <div ref={downloadableRef}>
                 <ResumeHeader />
+                <ResumeLayout />
             </div>
             <button onClick={downloadResume}>Download Resume</button>
-                <ResumeLayout134287013131313134287091342870000000000000000134287009♦ />
         </>
     )
 }

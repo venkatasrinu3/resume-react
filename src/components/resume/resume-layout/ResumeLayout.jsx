@@ -4,22 +4,27 @@ import "./ResumeLayout.scss";
 // import Skills from "./Skills";
 // import Publications from "./Publications";
 import WorkExperience from "../work-experience/WorkExperience";
+import Skills from "../skills/Skills";
+import Education from "../education/Education";
+import Publications from "../publications/Publications";
 
 const ResumeLayout = () => {
   return (
     <div className="resume-layout">
       {/* Left Column */}
+      <div className="resume-layout__left">
         <WorkExperience />
-        {/* Later we’ll add Education, Projects here */}
+        {/* <Education /> */}
       </div>
+      {/* Later we’ll add Education, Projects here */}
 
       {/* Right Column */}
       <div className="resume-layout__right">
-        Skills {/* <Skills /> */}
-        Pblications{/* <Publications /> */}
+        <Skills />
+        
         {/* Later we’ll add Certifications, Languages, Interests */}
+      </div>
     </div>
-      </div>1342870134289)1342870913
   );
 };
 

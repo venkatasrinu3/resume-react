@@ -9,7 +9,6 @@
     border-bottom: 2px solid #2ab4a0;
     display: inline-block;
     margin-bottom: 16px;
-    text-transform: uppercase;
   }
 
   &__item {
@@ -60,9 +59,9 @@
     list-style-type: disc;
 
     li {
-      font-size: 14px;
-      line-height: 1.6;
-      color: #333;
+      font-size: 12px;
+      // line-height: 1.6;
+      color: black;
       margin-bottom: 4px;
 
       &::marker {

@@ -1,0 +1,49 @@
+@mixin titleStyle() {
+    font-weight: 700;
+
+    color: #2ab4a0;
+    text-align: left;
+}
+
+.publications {
+    display: flex;
+    flex-direction: column;
+
+    &-title {
+        font-size: 18px;
+        text-decoration: underline;
+        @include titleStyle();
+    }
+
+    &__list {
+        margin: 0;
+        padding-left: 18px;
+        list-style-type: disc;
+    }
+
+    &__item {
+        font-size: 14px;
+        line-height: 1.6;
+        color: #333;
+        margin-bottom: 12px;
+        text-align: left;
+
+        &::marker {
+            color: #2ab4a0; // teal bullets
+        }
+    }
+
+    &__titleText {
+        font-style: italic;
+        color: #000;
+    }
+
+    &__journal {
+        color: #000;
+    }
+
+    &__details {
+        color: #555;
+        font-size: 13px;
+    }
+}
